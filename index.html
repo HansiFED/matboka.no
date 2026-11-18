@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matboka – oppskrifter, ukemeny og handleliste i en app</title>
+<meta name="description" content="Gratis app for iPhone og Android: samle oppskrifter fra TikTok, nettsider og kokebøker, lag ukemeny og handleliste, tell kalorier og del med venner.">
+<link rel="canonical" href="https://matboka.no/">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#EF8A39">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="img/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preload" href="fonts/plus-jakarta-sans-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Matboka">
+<meta property="og:locale" content="nb_NO">
+<meta property="og:title" content="Matboka – oppskrifter, ukemeny og handleliste i en app">
+<meta property="og:description" content="Gratis app for iPhone og Android: samle oppskrifter fra TikTok, nettsider og kokebøker, lag ukemeny og handleliste, tell kalorier og del med venner.">
+<meta property="og:url" content="https://matboka.no/">
+<meta property="og:image" content="https://matboka.no/img/deling.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Matboka, din norske kokebok">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":"https://matboka.no/#nettsted","name":"Matboka","alternateName":["matboka.no"],"url":"https://matboka.no/","inLanguage":"nb","publisher":{"@id":"https://matboka.no/#utgiver"}},
+{"@type":"Organization","@id":"https://matboka.no/#utgiver","name":"Berentsen Media"},
+{"@type":"MobileApplication","name":"Matboka","url":"https://matboka.no/","image":"https://matboka.no/img/deling.jpg","description":"Norsk kokebok-app: samle oppskrifter fra TikTok, nettsider og kokebøker, med kokemodus, ukemeny, handleliste og kaloritelling.","operatingSystem":"iOS, Android","applicationCategory":"LifestyleApplication","inLanguage":"nb","offers":{"@type":"Offer","price":"0","priceCurrency":"NOK"},"publisher":{"@id":"https://matboka.no/#utgiver"}}
+]}
+</script>
+<script src="js/site.js" defer></script>
+</head>
+<body class="home">
+<a class="skip" href="#innhold">Hopp til innholdet</a>
+<header class="site-header on-gulrot">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="img/icon-192.png" alt="" width="40" height="40">Matboka</a>
+    <nav class="nav" aria-label="Hovedmeny">
+      <a href="hjelp">Hjelp</a>
+      <a href="#last-ned" class="hide-small">Last ned</a>
+    </nav>
+  </div>
+</header>
+<main id="innhold">
+  <section class="hero on-gulrot" aria-labelledby="tittel">
+    <div class="wrap">
+      <div class="hero__text">
+        <h1 id="tittel">Din norske kokebok</h1>
+        <p class="hero__lead">Matboka samler oppskriftene dine fra TikTok, nettsider og bestemors oppskriftskort i en&nbsp;app. Lag maten uten nett, planlegg uka og del med venner.</p>
+        <div class="stores" data-butikk data-klar="nei">
+          <a class="store" data-butikk-lenke="appStore" href="./#last-ned"><small>Last ned i</small><span>App Store</span></a>
+          <a class="store" data-butikk-lenke="googlePlay" href="./#last-ned"><small>Last ned i</small><span>Google Play</span></a>
+          <p class="soon">Kommer snart til iPhone, iPad og Android</p>
+        </div>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <img class="plate plate--a" src="img/mat/lasagne.webp" alt="" width="640" height="640">
+        <img class="plate plate--d" src="img/mat/kanelboller.webp" alt="" width="640" height="640">
+        <img class="plate plate--c" src="img/mat/taco.webp" alt="" width="640" height="640">
+        <img class="plate plate--b" src="img/mat/laks.webp" alt="" width="640" height="640">
+        <figure class="phone"><img src="img/screens/boka.webp" srcset="img/screens/boka.webp 390w, img/screens/boka@2x.webp 780w" sizes="(max-width: 860px) 62vw, 300px" width="390" height="844" alt="" fetchpriority="high"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature" aria-labelledby="lagre">
+    <div class="wrap">
+      <div class="feature__text">
+        <h2 id="lagre">Lagre fra hvor som helst</h2>
+        <p>Matboka gjør det du finner, om til en ryddig oppskrift med ingredienser og steg. Du ser hva som ble tolket, før du lagrer.</p>
+        <ul class="ways">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg><h3>Skann</h3><p>Ta bilde av en kokebokside, et oppskriftskort eller et skjermbilde. Teksten leses på telefonen.</p></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg><h3>Lim inn lenke</h3><p>Fra TikTok, Instagram, YouTube og de fleste oppskriftssider.</p></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 13 5.22 3.48a.5.5 0 0 0 .78-.42V7.87a.5.5 0 0 0-.75-.43L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg><h3>Fra video</h3><p>Velg en video du har lagret. Matboka leser teksten i bildet og hører hva som blir sagt.</p></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.17 6.81a1 1 0 0 0-3.99-3.99L3.84 16.17a2 2 0 0 0-.5.83l-1.32 4.35a.5.5 0 0 0 .62.62l4.35-1.32a2 2 0 0 0 .83-.5z"/><path d="m15 5 4 4"/></svg><h3>Skriv selv</h3><p>Ingredienser og steg, en etter en.</p></li>
+        </ul>
+      </div>
+      <div class="panel panel--fjord">
+        <figure class="phone"><img src="img/screens/legg-til.webp" srcset="img/screens/legg-til.webp 390w, img/screens/legg-til@2x.webp 780w" sizes="(max-width: 860px) 64vw, 292px" width="390" height="844" alt="Legg til oppskrift i Matboka, med valgene Skann, Skriv selv, Lim inn lenke, Fra video, Lim inn tekst, Skann QR-kode og Importer fil." loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature feature--flip band--natt" aria-labelledby="lage">
+    <div class="wrap">
+      <div class="feature__text">
+        <h2 id="lage">Ett steg om gangen</h2>
+        <p>Kokemodus viser ett steg i stor skrift og holder skjermen våken mens du lager maten. Står det «la småkoke i 20 minutter», starter du tidtakeren med ett trykk.</p>
+        <p>Flere tidtakere kan gå samtidig, og de ringer selv om telefonen er låst.</p>
+        <p class="note">Oppskriftene ligger på telefonen, så de virker på hytta uten dekning.</p>
+      </div>
+      <div class="panel panel--gulrot">
+        <figure class="phone"><img src="img/screens/kokemodus.webp" srcset="img/screens/kokemodus.webp 390w, img/screens/kokemodus@2x.webp 780w" sizes="(max-width: 860px) 64vw, 292px" width="390" height="844" alt="Kokemodus i mørk modus: steg 1 av 5 i en lasagne, med ingrediensene i steget og en knapp som starter en tidtaker på 20 minutter." loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature" aria-labelledby="planlegg">
+    <div class="wrap">
+      <div class="feature__text">
+        <h2 id="planlegg">Fra ukemeny til handlelapp</h2>
+        <p>Velg middager for uka, skriv «Rester», eller la Matboka foreslå noe til de tomme dagene. Ett trykk legger alt du trenger i handlelisten, slått sammen og sortert etter avdelingene i butikken.</p>
+        <p>Er du tom for noe, skanner du strekkoden rett inn i lista.</p>
+        <p class="note">Med Pluss ser du omtrent hva maten koster, og hvilken kjede som er billigst.</p>
+      </div>
+      <div class="panel panel--sennep panel--duo">
+        <figure class="phone"><img src="img/screens/ukemeny.webp" srcset="img/screens/ukemeny.webp 390w, img/screens/ukemeny@2x.webp 780w" sizes="(max-width: 860px) 46vw, 248px" width="390" height="844" alt="Ukemenyen for uke 46 med en middag hver dag." loading="lazy" decoding="async"></figure>
+        <figure class="phone"><img src="img/screens/handleliste.webp" srcset="img/screens/handleliste.webp 390w, img/screens/handleliste@2x.webp 780w" sizes="(max-width: 860px) 46vw, 248px" width="390" height="844" alt="Handlelisten sortert etter avdeling, med varer fra to oppskrifter." loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature feature--flip band--paper" aria-labelledby="dagbok">
+    <div class="wrap">
+      <div class="feature__text">
+        <h2 id="dagbok">Kaloriene, uten styr</h2>
+        <p>Skann strekkoden på pakken, søk blant over 2000 matvarer fra Matvaretabellen, eller legg inn en oppskrift fra boka. Matboka regner ut næringen per porsjon for deg.</p>
+        <p>Måltidene står som korte kort, og du ser protein, karbohydrat og fett mot dagsmålet.</p>
+        <p class="note">Kaloritellingen er gratis, og du kan slå den av hvis du ikke vil se den.</p>
+      </div>
+      <div class="panel panel--salvie">
+        <figure class="phone"><img src="img/screens/dagbok.webp" srcset="img/screens/dagbok.webp 390w, img/screens/dagbok@2x.webp 780w" sizes="(max-width: 860px) 64vw, 292px" width="390" height="844" alt="Dagboka med 1 086 kcal igjen av 2 100, protein, karbohydrat og fett, og måltidene frokost, lunsj, middag og mellommåltid." loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature" aria-labelledby="del">
+    <div class="wrap">
+      <div class="feature__text">
+        <h2 id="del">Del med venner</h2>
+        <p>Send en oppskrift som lenke, QR-kode eller fil. Har vennen din Matboka, åpnes den rett i appen. Hvis ikke, vises den her på matboka.no.</p>
+        <p>Med en gratis konto kan dere bli venner i appen og se oppskriftene hverandre deler.</p>
+        <p class="note">Lenken inneholder hele oppskriften, så den virker uten konto.</p>
+      </div>
+      <div class="panel panel--fersken">
+        <figure class="phone"><img src="img/screens/oppskrift.webp" srcset="img/screens/oppskrift.webp 390w, img/screens/oppskrift@2x.webp 780w" sizes="(max-width: 860px) 64vw, 292px" width="390" height="844" alt="En oppskrift på lasagne med bilde, tid, porsjoner og knappene Start matlaging og Handleliste." loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="pluss" id="pluss" aria-labelledby="pluss-tittel">
+    <div class="wrap">
+      <h2 id="pluss-tittel">Det meste er gratis</h2>
+      <p class="pluss__intro">Matboka Pluss er for deg som vil ha boka på flere enheter, se hva maten koster eller planlegge middagene sammen med husstanden.</p>
+      <div class="compare">
+        <section aria-labelledby="gratis">
+          <h3 id="gratis">Gratis</h3>
+          <p class="price">Uten konto og uten reklame</p>
+          <ul>
+            <li>Oppskrifter, skanning og import fra lenker og video</li>
+            <li>Kokemodus med tidtakere</li>
+            <li>Handleliste og ukemeny</li>
+            <li>Kaloritelling med strekkodeskanner</li>
+            <li>Venner og deling med lenke, QR-kode og fil</li>
+            <li>Sikkerhetskopi til en fil</li>
+          </ul>
+        </section>
+        <section class="compare__pluss" aria-labelledby="plussnavn">
+          <h3 id="plussnavn">Matboka Pluss</h3>
+          <p class="price">49 kr i måneden eller 399 kr i året</p>
+          <ul>
+            <li>Boka og dagboka synket mellom telefon og nettbrett</li>
+            <li>Priser fra butikkene på handlelisten, ukemenyen og oppskriftene</li>
+            <li>Prisvarsler, og billige middager hver torsdag</li>
+            <li>Felles ukemeny for husstanden, og alle i husstanden (opptil seks) får Pluss</li>
+          </ul>
+          <p class="small">14 dager gratis første gang. Du sier opp i App Store eller Google Play.</p>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing on-gulrot" id="last-ned" aria-labelledby="last-ned-tittel">
+    <div class="wrap">
+      <img src="img/icon-192.png" alt="" width="84" height="84" loading="lazy">
+      <h2 id="last-ned-tittel">Last ned Matboka</h2>
+      <p>Gratis for iPhone, iPad og Android.</p>
+      <div class="stores" data-butikk data-klar="nei">
+          <a class="store" data-butikk-lenke="appStore" href="./#last-ned"><small>Last ned i</small><span>App Store</span></a>
+          <a class="store" data-butikk-lenke="googlePlay" href="./#last-ned"><small>Last ned i</small><span>Google Play</span></a>
+          <p class="soon">Kommer snart</p>
+        </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <a class="brand brand--small" href="./"><img src="img/icon-192.png" alt="" width="32" height="32">Matboka</a>
+      <p>Matboka er laget av Berentsen Media.</p>
+    </div>
+    <nav aria-label="Om Matboka">
+      <a href="hjelp">Hjelp</a>
+      <a href="personvern">Personvern</a>
+      <a href="vilkar">Vilkår</a>
+      <a href="slett-konto">Slett konto</a>
+      <a href="mailto:berentsenmedia@gmail.com">Kontakt oss</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>

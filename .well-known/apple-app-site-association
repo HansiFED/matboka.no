@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["A3C83CPJ37.no.matboka.app"],
+        "components": [
+          { "/": "/i", "comment": "Delte oppskrifter: matboka.no/i#r=..." },
+          { "/": "/i/", "comment": "Det samme med skråstrek til slutt" }
+        ]
+      }
+    ]
+  }
+}
